@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbslate - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 700px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        
+        .tagline {
+            font-size: 22px;
+            color: #666;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .description {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+            text-align: left;
+        }
+        
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-title {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        .feature-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .status {
+            display: inline-block;
+            background: #ffeaa7;
+            color: #2d3436;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 30px 0;
+            font-size: 16px;
+        }
+        
+        .contact {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .contact-text {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-email {
+            color: #667eea;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+            
+            .tagline {
+                font-size: 18px;
+            }
+            
+            .description {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Thumbslate</div>
+        <div class="tagline">Bridging Communication in Healthcare</div>
+        
+        <div class="description">
+            A revolutionary communication tool designed to empower deaf and hard-of-hearing patients in healthcare settings. Thumbslate enables real-time, two-way conversation between healthcare providers and patients through intelligent speech-to-text and text-to-speech technology.
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-title">Real-Time Transcription</div>
+                <div class="feature-text">Watch as provider speech is converted to text instantly, with word-by-word highlighting</div>
+            </div>
+            <div class="feature">
+                <div class="feature-title">Patient Response</div>
+                <div class="feature-text">Type and edit responses before reading them aloud to your provider</div>
+            </div>
+            <div class="feature">
+                <div class="feature-title">HIPAA Compliant</div>
+                <div class="feature-text">Built with healthcare privacy and security at its core</div>
+            </div>
+        </div>
+        
+        <div class="status">🚀 Coming Soon</div>
+        
+        <div class="contact">
+            <div class="contact-text">Interested in Thumbslate for your practice?</div>
+            <a href="mailto:info@thumbslate.com" class="contact-email">info@thumbslate.com</a>
+        </div>
+    </div>
+</body>
+</html>
